@@ -8,13 +8,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class ValueAnnotation 
 {
-	@Value("${sname:Volvo}")
-	public String sname;
+	@Value("${cname:Volvo}")
+	public String cname;
 	
 	@ResponseBody
 	@GetMapping("/hello")
 	public String print()
 	{
-		return "I Like "+sname;
+		return "I Like "+cname;
 	}
 }
