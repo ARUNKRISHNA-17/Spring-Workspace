@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class ValueAnnotation 
 {
-	@Value("${sname:BMW}")
+	@Value("${sname}")
 	public String sname;
 	
 	@ResponseBody

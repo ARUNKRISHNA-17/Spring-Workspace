@@ -140,3 +140,9 @@
 2023-04-20 14:13:05,553 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
 2023-04-20 14:13:05,560 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2023-04-20 14:13:05,563 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day1JsonIgnore\src\test\resources
+2023-04-20 14:15:30,034 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-20 14:15:30,041 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-20 14:15:30,045 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day1ValueAnnotation\src\test\resources
+2023-04-20 14:15:56,410 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-20 14:15:56,415 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-20 14:15:56,418 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day1ValueAnnotation\src\test\resources
