@@ -281,3 +281,7 @@
 2023-04-20 15:11:16,483 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
 2023-04-20 15:11:16,494 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2023-04-20 15:11:16,496 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day2-JsonIgnore-1\src\test\resources
+2023-04-20 15:49:43,464 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@57bb1c5c{STOPPING}[10.0.13,sto=0]
+2023-04-20 15:49:43,489 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@9fa2fd8{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-04-20 15:49:43,514 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1a2ecc57{/help,null,STOPPED}
+2023-04-21 09:46:29,820 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
