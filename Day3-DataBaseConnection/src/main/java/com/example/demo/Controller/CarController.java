@@ -13,7 +13,7 @@ public class CarController
 {
 	@Autowired
 	public CarService cser;
-	@PostMapping("/savede")
+	@PostMapping("/savedec")
 	
 	public CarModel addDetails(@RequestBody CarModel cr)
 	{
