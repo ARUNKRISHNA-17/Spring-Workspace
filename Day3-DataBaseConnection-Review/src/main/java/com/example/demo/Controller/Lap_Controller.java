@@ -5,16 +5,17 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.Service.LapService;
-import com.example.demo.review.LaptopConfigurations;
+import com.example.demo.Service.Lap_Service;
+import com.example.demo.review.Laptop_DBMS;
 @RestController
-public class LapController 
+
+public class Lap_Controller 
 {
 	@Autowired
-	public LapService lser;
-	@PostMapping("/lapconfig")
-	public LaptopConfigurations addDetails(@RequestBody LaptopConfigurations lc)
+	public Lap_Service lser;
+	@PostMapping("/ldbms")
+	public Laptop_DBMS addDetails(@RequestBody Laptop_DBMS lb)
 	{
-		return lser.saveInfo(lc);
+		return lser.saveInfo(lb);
 	}
 }
