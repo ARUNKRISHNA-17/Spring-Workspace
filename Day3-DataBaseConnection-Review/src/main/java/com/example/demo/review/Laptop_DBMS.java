@@ -7,7 +7,7 @@ import jakarta.persistence.Table;
 @Table(name="Laptop_DBMS")
 public class Laptop_DBMS 
 {
-	@Id
+	@Id    
 	private int Laptop_Id;
 	private String A_Laptop_Name;
 	private String B_CPU;

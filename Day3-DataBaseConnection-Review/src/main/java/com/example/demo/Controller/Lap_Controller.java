@@ -25,24 +25,24 @@ public class Lap_Controller
 	{
 		return lser.saveInfo(lb);
 	}
-	@DeleteMapping("/ldelete/{id}")
-	public String deletedetails(@PathVariable("id")int id)
-	{
-		 lser.deletedetails(id);
-		 return "Deltion was Successful";
-	}
 	
 	@GetMapping("/lget/{id}")
 	public Optional<Laptop_DBMS> getDetails(@PathVariable("id")int id)
 	{
 		return lser.getInfo(id);
 	}
+	@DeleteMapping("/ldelete/{id}")
+	public String deletedetails(@PathVariable("id")int id)
+	{
+		lser.deletedetails(id);
+		return "Deltion was Successful";
+	}
 	@PutMapping("/lupdate")
 	public Laptop_DBMS updateDetails(@RequestBody Laptop_DBMS ld)
 	{
 		return lser.updateDetails(ld);
 	}
-	@DeleteMapping("/ldeleteByReq")
+	@DeleteMapping("/deleteByReq")
 	public String deleteReqByPara(@RequestParam("id")int id)
 	{
 		lser.deletedetails(id);

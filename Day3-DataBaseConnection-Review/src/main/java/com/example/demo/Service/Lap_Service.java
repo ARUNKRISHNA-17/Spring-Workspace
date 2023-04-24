@@ -26,9 +26,8 @@ public class Lap_Service
 	{
 		return lrepo.saveAndFlush(ld);
 	}
-
 	public void deletedetails(int id) 
 	{
-		 lrepo.deleteById(id);
+		lrepo.deleteById(id);
 	}
 }
