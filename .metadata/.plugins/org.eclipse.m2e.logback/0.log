@@ -1323,3 +1323,6 @@
 2023-04-24 15:31:04,795 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2023-04-24 15:31:04,798 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2023-04-24 15:31:04,800 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day3-DataBaseConnection-Review\src\test\resources
+2023-04-24 17:25:56,429 [Worker-163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-24 17:25:56,584 [Worker-163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-24 17:25:56,589 [Worker-163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day3-DataBaseConnection-Review\src\test\resources
