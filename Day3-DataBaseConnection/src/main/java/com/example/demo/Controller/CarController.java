@@ -47,6 +47,6 @@ public class CarController
 	public String deleteByRequesPara(@RequestParam("id")int id)
 	{
 		cser.deleteInfo(id);
-		return "Player ID "+id+" is deleted";
+		return "Car ID "+id+" is deleted";
 	}
 }
