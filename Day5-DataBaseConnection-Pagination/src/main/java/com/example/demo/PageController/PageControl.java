@@ -36,4 +36,9 @@ public class PageControl
 	{
 		return pser.paginationData(bno, bsize);
 	}
+	@GetMapping("/paginationData/{pgno}/{pgsize}/{pname}")
+	public List<Pagination> paginationData(@PathVariable("pgno")int pgno,@PathVariable("pgsize")int pgsize,@PathVariable("pname")String pname)
+	{
+		return pser.paginationSort(pgno, pgsize, pname);
+	}
 }

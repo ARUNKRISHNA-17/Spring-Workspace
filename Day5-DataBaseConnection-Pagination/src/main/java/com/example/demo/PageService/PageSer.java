@@ -35,5 +35,6 @@ public class PageSer
 	public List<Pagination> paginationSort(int pgno,int pgsize,String pname)
 	{
 		Page<Pagination> pages=prepo.findAll(PageRequest.of(pgno, pgsize,Sort.by(pname)));
-		return pages.getContent();	}
+		return pages.getContent();	
+	}
 }
