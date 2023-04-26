@@ -49,4 +49,19 @@ public class CarController
 		cser.deleteInfo(id);
 		return "Car ID "+id+" is deleted";
 	}
+	@GetMapping("/sortDes/{cname}")
+	public List<CarModel> sortCar(@PathVariable("cname") String cname)
+	{
+		return cser.sortDesc(cname);
+	}
+	@GetMapping("/pagination/{pno}/{psi}")
+	public List<CarModel> paginationData(@PathVariable("pno")int pno,@PathVariable("psi")int psi)
+	{
+		return cser.paginationData(pno, psi);
+	}
+	@GetMapping("/pagination/{pno}/{psi}/{cname}")
+	public List<CarModel> paginationData(@PathVariable("pno")int pno,@PathVariable("psi")int psi,@PathVariable("cname")String cname)
+	{
+		return cser.paginationSorting(pno, psi, cname);
+	}
 }
