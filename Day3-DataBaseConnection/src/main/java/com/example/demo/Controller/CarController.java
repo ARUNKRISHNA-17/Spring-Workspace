@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.Model.CarModel;
+import com.example.demo.Repository.CarRepo;
 import com.example.demo.Service.CarService;
 @RestController
 
@@ -20,6 +21,8 @@ public class CarController
 {
 	@Autowired
 	public CarService cser;
+	@Autowired
+	public CarRepo cr;
 	@PostMapping("/savedec")
 	
 	public CarModel addDetails(@RequestBody CarModel cr)
@@ -63,5 +66,26 @@ public class CarController
 	public List<CarModel> paginationData(@PathVariable("pno")int pno,@PathVariable("psi")int psi,@PathVariable("cname")String cname)
 	{
 		return cser.paginationSorting(pno, psi, cname);
+	}
+	@GetMapping("saveall")
+	public List<CarModel> getD()
+	{
+		return cr.getAllData();
+	}
+	@GetMapping("/byName/{id}")
+	public List<CarModel> getName(@PathVariable("id")int id)
+	{
+		return cr.bycname(id);
+	}
+	@GetMapping("startend/{start}/{end}")
+	public List<CarModel> startend(@PathVariable("start")int start,@PathVariable("end")int end)
+	{
+		return cr.startEnd(start, end);
+	}
+	@DeleteMapping("/deletebyid/{id}/{name}")
+	public String deleteCar(@PathVariable("id")int id,@PathVariable("name")String name)
+	{
+		cr.deleteID(id, name);
+		return id+" was deleted";
 	}
 }
