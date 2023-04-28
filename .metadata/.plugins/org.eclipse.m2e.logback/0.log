@@ -1726,3 +1726,63 @@
 2023-04-26 21:34:49,776 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2023-04-26 21:34:49,783 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2023-04-26 21:34:49,787 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day4-DataBaseConnection-Pagination-Revise\src\test\resources
+2023-04-27 07:30:09,611 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-27 09:45:37,159 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-27 11:17:26,724 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-27 11:17:26,769 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-27 11:17:26,774 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day1Welcome\src\test\resources
+2023-04-27 11:17:27,802 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-27 11:17:27,828 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-27 11:17:27,832 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day2-JsonIgnore\src\test\resources
+2023-04-27 11:17:28,462 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-27 11:17:28,479 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-27 11:17:28,485 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day2-ValueAnnotation\src\test\resources
+2023-04-27 11:17:29,066 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-27 11:17:29,095 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-27 11:17:29,101 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day2-ValueAnnotation-Method-2\src\test\resources
+2023-04-27 11:17:29,974 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-27 11:17:29,994 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-27 11:17:29,998 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day3-DataBaseConnection\src\test\resources
+2023-04-27 11:17:30,727 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-27 11:17:30,756 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-27 11:17:30,761 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day3-DataBaseConnection-Review\src\test\resources
+2023-04-27 11:17:31,493 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-27 11:17:31,525 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-27 11:17:31,532 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day4-DataBaseConnection-CRUD-Operations\src\test\resources
+2023-04-27 11:17:32,382 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-27 11:17:32,409 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-27 11:17:32,414 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day4-DataBaseConnection-CRUD-Operations-Revise\src\test\resources
+2023-04-27 11:17:33,079 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-27 11:17:33,102 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-27 11:17:33,105 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day4-DataBaseConnection-Pagination-Revise\src\test\resources
+2023-04-27 11:17:33,816 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day3-DataBaseConnection: Day1:Day3-DataBaseConnection:0.0.1-SNAPSHOT with classifier  to /Day3-DataBaseConnection/target/classes
+2023-04-27 11:17:33,925 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-27 11:17:33,957 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-27 11:17:33,962 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day5-DataBaseConnection-Pagination\src\test\resources
+2023-04-28 08:24:28,827 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-28 08:24:30,280 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2023-04-28 08:27:47,823 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-28 08:27:47,870 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-28 08:27:47,879 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day3-DataBaseConnection-Review\src\test\resources
+2023-04-28 08:32:14,292 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-28 08:32:14,317 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-28 08:32:14,325 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day3-DataBaseConnection-Review\src\test\resources
+2023-04-28 08:40:27,213 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-28 08:40:27,221 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-28 08:40:27,226 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day3-DataBaseConnection-Review\src\test\resources
+2023-04-28 08:44:10,148 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-28 08:44:10,159 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-28 08:44:10,165 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day3-DataBaseConnection-Review\src\test\resources
+2023-04-28 09:49:08,900 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-28 09:54:02,893 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-28 09:54:02,917 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-28 09:54:02,923 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day3-DataBaseConnection-Review\src\test\resources
+2023-04-28 09:55:06,676 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-28 09:55:06,680 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-28 09:55:06,684 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day3-DataBaseConnection-Review\src\test\resources
+2023-04-28 09:56:56,339 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-28 09:56:56,345 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-28 09:56:56,348 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day3-DataBaseConnection-Review\src\test\resources
+2023-04-28 09:57:06,416 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-28 09:57:06,422 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-28 09:57:06,426 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\shant\OneDrive\Desktop\Spring Workspace\Day3-DataBaseConnection-Review\src\test\resources
