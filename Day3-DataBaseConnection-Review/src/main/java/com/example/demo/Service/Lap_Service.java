@@ -61,7 +61,7 @@ public class Lap_Service
 		Laptop_DBMS user = lrepo.findByusername(username);
 		if(user == null)
 		{
-			return "No User Found/nPlease Try Again!!!!";
+			return "No User Found Please Try Again!!!!";
 		}
 		else
 		{

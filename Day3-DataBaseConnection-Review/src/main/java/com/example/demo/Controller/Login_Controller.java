@@ -1,5 +1,4 @@
-package com.example.demo.LogController;
-
+package com.example.demo.Controller;
 import java.util.List;
 import java.util.Map;
 
@@ -7,35 +6,34 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.LogService.LogService;
-import com.example.demo.LoginData.LogData;
+import com.example.demo.Service.Login_Service;
+import com.example.demo.review.LoginCheck;
+
+
 @RestController
-@RequestMapping("/log")
-public class LogController 
+public class Login_Controller 
 {
 	@Autowired
-	private LogService lser;
+	private Login_Service lser;
 	
 	@PostMapping("/checkData")
 	public String login(@RequestBody Map<String,String> loginData)
 	{
-		String username = loginData.get("username");
-		String password = loginData.get("password");
-		String result = lser.loginAccessCheck(username, password);
+		String ownername = loginData.get("ownername");
+		String ownerpassword = loginData.get("ownerpassword");
+		String result = lser.loginAccessCheck(ownername, ownerpassword);
 		return result;
 	}
 	@PostMapping("/adduser")
-	public LogData addUser(@RequestBody LogData log)
+	public LoginCheck addUser(@RequestBody LoginCheck log)
 	{
 		return lser.addUser(log);
 	}
 	@GetMapping("/getLog")
-	public List<LogData> listAll()
+	public List<LoginCheck> listAll()
 	{
 		return lser.getData();
 	}
-	
 }

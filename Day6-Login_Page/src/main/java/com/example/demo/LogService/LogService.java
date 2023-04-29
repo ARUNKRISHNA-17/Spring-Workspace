@@ -18,7 +18,7 @@ public class LogService
 		LogData user = lrepo.findByusername(username);
 		if(user == null)
 		{
-			return "No User Found By that Name!!!!!/nPlease try again";
+			return "No User Found By that Name!!!!! Please try again";
 		}
 		else
 		{
@@ -28,7 +28,7 @@ public class LogService
 			}
 			else
 			{
-				return "Login Failed!!!/nPlease try again!!";
+				return "Login Failed!!! Please try again!!";
 			}
 		}
 	}
