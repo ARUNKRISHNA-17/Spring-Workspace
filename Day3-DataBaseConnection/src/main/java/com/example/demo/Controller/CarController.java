@@ -24,10 +24,9 @@ public class CarController
 	@Autowired
 	public CarRepo cr;
 	@PostMapping("/savedec")
-	
-	public CarModel addDetails(@RequestBody CarModel cr)
+	public CarModel addDetails(@RequestBody CarModel car)
 	{
-		return cser.saveInfo(cr);
+		return cser.saveInfo(car);
 	}
 	
 	@GetMapping("/getcar")
@@ -88,4 +87,10 @@ public class CarController
 		cr.deleteID(id, name);
 		return id+" was deleted";
 	}
+	@PutMapping("/updatequery/{id}/{name}")
+	public void updateQuery(@PathVariable("id")int id,@PathVariable("name")String name)
+	{
+		cr.updateByQuery(id, name);
+	}
+	
 }

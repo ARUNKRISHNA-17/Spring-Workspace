@@ -15,9 +15,9 @@ public class CarService
 {
 	@Autowired
 	public CarRepo crepo;
-	public CarModel saveInfo(CarModel c)
+	public CarModel saveInfo(CarModel car)
 	{
-		return crepo.save(c);
+		return crepo.save(car);
 	}
 	public List<CarModel> getInfo()
 	{

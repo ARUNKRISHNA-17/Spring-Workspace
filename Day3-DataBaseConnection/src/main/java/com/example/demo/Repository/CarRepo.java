@@ -26,4 +26,10 @@ public interface CarRepo extends JpaRepository<CarModel, Integer>
 	@Transactional
 	@Query(value="delete from car_model where cid=?1 and cname=?2",nativeQuery = true)
 	Integer deleteID(@Param("id")int cid,@Param("name")String cname);
+	
+	@Modifying
+	@Transactional
+	@Query(value="update car_model set cid = :id where cname=:name",nativeQuery = true)
+	public void updateByQuery(@Param("id")int id,@Param("name")String name);
+	
 }

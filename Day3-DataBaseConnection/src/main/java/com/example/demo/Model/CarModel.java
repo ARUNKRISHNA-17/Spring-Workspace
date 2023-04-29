@@ -1,22 +1,16 @@
 package com.example.demo.Model;
 
-import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-import jakarta.persistence.Transient;
 
 @Entity
 @Table(name="carModel")
 public class CarModel 
 {
 	@Id
-	@Column(name="cid")
 	private int cid;
-	@Column(name="cname")
 	private String cname;
-	@Transient
-	@Column(name="cmodel")
 	private int cmodel;
 	
 	public int getCid() {

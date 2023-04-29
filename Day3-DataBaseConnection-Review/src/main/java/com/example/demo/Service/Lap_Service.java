@@ -21,10 +21,13 @@ public class Lap_Service
 	{
 		return lrepo.save(ld);
 	}
-	
 	public Optional<Laptop_DBMS> getInfo(int id) 
 	{
 		return lrepo.findById(id);
+	}
+	public List<Laptop_DBMS> getData(Laptop_DBMS ldbm)
+	{
+		return lrepo.findAll();
 	}
 	public Laptop_DBMS updateDetails(Laptop_DBMS ld) 
 	{
@@ -53,4 +56,32 @@ public class Lap_Service
 		return ps.getContent();
 		
 	}
+	public String loginCheckData(String username,String password)
+	{
+		Laptop_DBMS user = lrepo.findByusername(username);
+		if(user == null)
+		{
+			return "No User Found/nPlease Try Again!!!!";
+		}
+		else
+		{
+			if(user.getPassword().equals(password))
+			{
+				return "Login Successful";
+			}
+			else
+			{
+				return "Login Failed";
+			}
+		}
+	}
+	public Laptop_DBMS addUser(Laptop_DBMS ld)
+	{
+		return lrepo.save(ld);
+	}
+	public List<Laptop_DBMS> getData()
+	{
+		return lrepo.findAll();
+	}
+
 }

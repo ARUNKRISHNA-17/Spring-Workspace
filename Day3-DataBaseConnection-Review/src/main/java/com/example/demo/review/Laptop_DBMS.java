@@ -4,108 +4,126 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 @Entity
-@Table(name="Laptop_DBMS")
+@Table(name="lap_review")
 public class Laptop_DBMS 
 {
 	@Id    
-	private int Laptop_Id;
-	private String A_Laptop_Name;
-	private String B_CPU;
-	private String C_GPU;
-	private String D_Ram;
-	private String E_Storage;
-	private String F_Additional_Features;
-	private String G_Amenities_Provided;
-	private String H_Laptop_Total_Price;
-	private int I_Customer_Ratings;
-	private int J_No_of_Laptops_in_Stock;
-	private int K_No_of_Laptops_to_be_Ordered;
-	private int L_No_of_Laptops_in_for_Service;
-	private int M_No_of_Laptops_to_be_out_for_delivery;
+	private int LaptopId;
+	private String LaptopName;
+	private String LaptopOS;
+	private String CPU;
+	private String GPU;
+	private String Ram;
+	private String Storage;
+	private String AdditionalFeatures;
+	private String AmenitiesProvided;
+	private String LaptopPrice;
+	private int CustomerRatings;
+	private int NoOfLaptopsInStock;
+	private int NoOfLaptopsToBeOrdered;
+	private int userid;
+	private String username;
+	private String password;
 	
-	public int getLaptop_Id() {
-		return Laptop_Id;
+	
+	
+	public int getUserid() {
+		return userid;
 	}
-	public void setLaptop_Id(int laptop_Id) {
-		Laptop_Id = laptop_Id;
+	public void setUserid(int userid) {
+		this.userid = userid;
 	}
-	public String getA_Laptop_Name() {
-		return A_Laptop_Name;
+	public String getUsername() {
+		return username;
 	}
-	public void setA_Laptop_Name(String a_Laptop_Name) {
-		A_Laptop_Name = a_Laptop_Name;
+	public void setUsername(String username) {
+		this.username = username;
 	}
-	public String getB_CPU() {
-		return B_CPU;
+	public String getPassword() {
+		return password;
 	}
-	public void setB_CPU(String b_CPU) {
-		B_CPU = b_CPU;
+	public void setPassword(String password) {
+		this.password = password;
 	}
-	public String getC_GPU() {
-		return C_GPU;
+	public int getLaptopId() {
+		return LaptopId;
 	}
-	public void setC_GPU(String c_GPU) {
-		C_GPU = c_GPU;
+	public void setLaptopId(int laptopId) {
+		LaptopId = laptopId;
 	}
-	public String getD_Ram() {
-		return D_Ram;
+	public String getLaptopName() {
+		return LaptopName;
 	}
-	public void setD_Ram(String d_Ram) {
-		D_Ram = d_Ram;
+	public void setLaptopName(String laptopName) {
+		LaptopName = laptopName;
 	}
-	public String getE_Storage() {
-		return E_Storage;
+	public String getLaptopOS() {
+		return LaptopOS;
 	}
-	public void setE_Storage(String e_Storage) {
-		E_Storage = e_Storage;
+	public void setLaptopOS(String laptopOS) {
+		LaptopOS = laptopOS;
 	}
-	public String getF_Additional_Features() {
-		return F_Additional_Features;
+	public String getCPU() {
+		return CPU;
 	}
-	public void setF_Additional_Features(String f_Additional_Features) {
-		F_Additional_Features = f_Additional_Features;
+	public void setCPU(String cPU) {
+		CPU = cPU;
 	}
-	public String getG_Amenities_Provided() {
-		return G_Amenities_Provided;
+	public String getGPU() {
+		return GPU;
 	}
-	public void setG_Amenities_Provided(String g_Amenities_Provided) {
-		G_Amenities_Provided = g_Amenities_Provided;
+	public void setGPU(String gPU) {
+		GPU = gPU;
 	}
-	public String getH_Laptop_Total_Price() {
-		return H_Laptop_Total_Price;
+	public String getRam() {
+		return Ram;
 	}
-	public void setH_Laptop_Total_Price(String h_Laptop_Total_Price) {
-		H_Laptop_Total_Price = h_Laptop_Total_Price;
+	public void setRam(String ram) {
+		Ram = ram;
 	}
-	public int getI_Customer_Ratings() {
-		return I_Customer_Ratings;
+	public String getStorage() {
+		return Storage;
 	}
-	public void setI_Customer_Ratings(int i_Customer_Ratings) {
-		I_Customer_Ratings = i_Customer_Ratings;
+	public void setStorage(String storage) {
+		Storage = storage;
 	}
-	public int getJ_No_of_Laptops_in_Stock() {
-		return J_No_of_Laptops_in_Stock;
+	public String getAdditionalFeatures() {
+		return AdditionalFeatures;
 	}
-	public void setJ_No_of_Laptops_in_Stock(int j_No_of_Laptops_in_Stock) {
-		J_No_of_Laptops_in_Stock = j_No_of_Laptops_in_Stock;
+	public void setAdditionalFeatures(String additionalFeatures) {
+		AdditionalFeatures = additionalFeatures;
 	}
-	public int getK_No_of_Laptops_to_be_Ordered() {
-		return K_No_of_Laptops_to_be_Ordered;
+	public String getAmenitiesProvided() {
+		return AmenitiesProvided;
 	}
-	public void setK_No_of_Laptops_to_be_Ordered(int k_No_of_Laptops_to_be_Ordered) {
-		K_No_of_Laptops_to_be_Ordered = k_No_of_Laptops_to_be_Ordered;
+	public void setAmenitiesProvided(String amenitiesProvided) {
+		AmenitiesProvided = amenitiesProvided;
 	}
-	public int getL_No_of_Laptops_in_for_Service() {
-		return L_No_of_Laptops_in_for_Service;
+	public String getLaptopPrice() {
+		return LaptopPrice;
 	}
-	public void setL_No_of_Laptops_in_for_Service(int l_No_of_Laptops_in_for_Service) {
-		L_No_of_Laptops_in_for_Service = l_No_of_Laptops_in_for_Service;
+	public void setLaptopPrice(String laptopPrice) {
+		LaptopPrice = laptopPrice;
 	}
-	public int getM_No_of_Laptops_to_be_out_for_delivery() {
-		return M_No_of_Laptops_to_be_out_for_delivery;
+	public int getCustomerRatings() {
+		return CustomerRatings;
 	}
-	public void setM_No_of_Laptops_to_be_out_for_delivery(int m_No_of_Laptops_to_be_out_for_delivery) {
-		M_No_of_Laptops_to_be_out_for_delivery = m_No_of_Laptops_to_be_out_for_delivery;
+	public void setCustomerRatings(int customerRatings) {
+		CustomerRatings = customerRatings;
 	}
+	public int getNoOfLaptopsInStock() {
+		return NoOfLaptopsInStock;
+	}
+	public void setNoOfLaptopsInStock(int noOfLaptopsInStock) {
+		NoOfLaptopsInStock = noOfLaptopsInStock;
+	}
+	public int getNoOfLaptopsToBeOrdered() {
+		return NoOfLaptopsToBeOrdered;
+	}
+	public void setNoOfLaptopsToBeOrdered(int noOfLaptopsToBeOrdered) {
+		NoOfLaptopsToBeOrdered = noOfLaptopsToBeOrdered;
+	}
+	
+	
 	
 }
