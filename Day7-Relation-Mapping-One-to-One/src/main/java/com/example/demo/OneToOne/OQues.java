@@ -1,6 +1,5 @@
 package com.example.demo.OneToOne;
 
-import java.util.List;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
@@ -19,7 +18,13 @@ public class OQues
 	private int qmark;
 	@OneToOne(cascade = CascadeType.ALL)
 	@JoinColumn
-	public List<OAns> ans;
+	public OAns ans_no;
+	public OAns getAns_no() {
+		return ans_no;
+	}
+	public void setAns_no(OAns ans_no) {
+		this.ans_no = ans_no;
+	}
 	public int getSno() {
 		return sno;
 	}

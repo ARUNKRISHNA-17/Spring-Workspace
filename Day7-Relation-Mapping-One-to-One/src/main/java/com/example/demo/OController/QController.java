@@ -1,8 +1,11 @@
 package com.example.demo.OController;
 
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -34,5 +37,11 @@ public class QController
 	{
 		repo.findById(id);
 		return id+" was updated";
+	}
+	
+	@GetMapping("/getO")
+	public List<OQues> getDetails(int id)
+	{
+		return repo.getInfo(id);
 	}
 }

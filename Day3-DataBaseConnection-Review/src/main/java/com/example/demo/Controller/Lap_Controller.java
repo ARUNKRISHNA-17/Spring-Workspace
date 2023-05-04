@@ -17,6 +17,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.Repository.Lap_Repo;
 import com.example.demo.Service.Lap_Service;
 import com.example.demo.review.Laptop_DBMS;
+
+import io.swagger.v3.oas.annotations.tags.Tag;
 @RestController
 
 public class Lap_Controller 
@@ -25,6 +27,7 @@ public class Lap_Controller
 	public Lap_Service lser;
 	@Autowired
 	public Lap_Repo lrep;
+	@Tag(name = "Post Method",description = "User Validation")
 	@PostMapping("/ldbms")
 	public Laptop_DBMS addDetails(@RequestBody Laptop_DBMS lb)
 	{

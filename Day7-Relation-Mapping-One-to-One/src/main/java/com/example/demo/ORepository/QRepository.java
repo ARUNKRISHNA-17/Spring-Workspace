@@ -10,5 +10,5 @@ import com.example.demo.OneToOne.OQues;
 public interface QRepository extends JpaRepository<OQues, Integer> 
 {
 	@Query(value="select * from OQues where qno=:id",nativeQuery = true)
-	public List<OQues> getInfo();
+	public List<OQues> getInfo(int id);
 }
