@@ -83,6 +83,28 @@ public class IController
 	{
 		return irepo.between(Start, end);
 	}
+	
+	@Tag(name = "Update Data by Id Query Method for Shoe Info",description = "Update Details by Id using JPQL Query")
+	@PutMapping("/iputquery/{colour}")
+	public ShoeInfo queryUpdate(@PathVariable("colour")String colour)	
+	{
+		return irepo.queryByColour(colour);
+	}
+	
+	@Tag(name = "Delete by Id Query Method for Shoe Info",description = "Delete Details by Id")
+	@DeleteMapping("/ideletequery/{colour}")
+	public String queryDelete(@PathVariable("colour")String colour)
+	{
+		irepo.queryDelete(colour);
+		return colour+" was deleted successfully";
+	}
+	
+	@Tag(name = "Get Like Query Method for Shoe Info",description = "Get Data by Like Method")
+	@GetMapping("/ilike/{colour}")
+	public List<ShoeInfo> queryLike(@PathVariable("colour")String colour)
+	{
+		return irepo.like();
+	}
 
 
 }
